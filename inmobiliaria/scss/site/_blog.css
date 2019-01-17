@@ -1,0 +1,34 @@
+.col-md-6 h4::after
+{
+	content:'';
+	display: block;
+	background-color: var(--primario);
+	width: 8rem;
+	height: .2rem;
+	margin-top: 5px;
+}    
+#testimoniales
+{
+	margin-top: 3rem;
+	.carousel-inner
+	{
+		min-height: 380px;
+	}
+	.carousel-item
+	{
+		padding:6rem 1.5rem 1.5rem 3rem;
+		p {
+			line-height: 2rem;
+			font-weight: 300;
+			font-size: 1.3rem;
+			&::before {
+				content: open-quote;
+				position: absolute;
+				top:5rem;
+				left:1.2rem;
+				font-size: 3.4rem;
+				font-weight: bold;
+			}
+		}
+	}
+}        

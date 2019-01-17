@@ -1,0 +1,95 @@
+
+/* MENU */
+nav
+{
+	#menu
+	{
+		a
+		{
+			color: $negro!important;
+			font-weight: 400;
+		}
+	}
+
+}
+
+/* CUADROS */
+.cuadros
+{
+	.header
+	{
+		height: 15rem;
+		.info
+		{
+			h3
+			{
+				&:before 
+				{
+					content: "";
+					width: 80%;
+					height: 1px;
+					background-color: $blanco;
+					display: block;
+					margin: 10px auto;
+				}
+			}
+			p
+			{
+				&::after
+				{
+					content:'';
+					width: 80%;
+					height: 1px;
+					display: block;
+					background-color: $blanco;
+					margin: 10px auto;
+				}
+			}
+		}
+	}
+	.header1
+	{
+		background-color: $principal;
+	}
+	.header2
+	{
+		background-color: $secundario;
+	}
+	.bg-img
+	{
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top center;
+		height: 15rem;
+	}
+	.bg-1
+	{
+		background-image: url(../img/principal1.jpg);
+	}
+	.bg-2
+	{
+		background-image: url(../img/principal2.jpg);
+		order:1;
+	}
+}
+
+	/* MEDIA QUERIES */
+	@media (min-width: 768px)
+	{
+		.header
+		{
+			height: 25rem!important;
+		}
+		.bg-img
+		{
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: top center;
+			height: 25rem!important;
+		}
+		.bg-2
+		{
+			order:-1!important;
+		}
+	}
+

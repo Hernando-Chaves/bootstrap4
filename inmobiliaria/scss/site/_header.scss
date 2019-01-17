@@ -1,0 +1,50 @@
+.header 
+{
+	@media only screen and (min-width: 768px)
+	{
+		position: relative;
+		.barra.bg-success
+		{
+			background-color: transparent!important;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 99;
+			width: 100%;
+		}
+		.navbar-brand
+		{
+			font-size: 1.8em;
+			font-weight: 300;
+			span{
+				font-weight: 700;
+			}
+		}
+		
+		
+		.carousel-caption
+		{
+			h3 {
+				font-size: 2.3rem!important;
+			}
+			p {
+				font-size: 1.5rem!important;
+			}
+		}
+	}
+	#menuPrincipal
+	{
+		a{
+			color: rgba(255,255,255,1)!important;
+			text-transform: uppercase;
+		}
+	}
+	.dropdown-menu 
+	{
+		a {
+			&:hover {
+				background-color: var(--secundario);
+			}
+		}
+	}
+}

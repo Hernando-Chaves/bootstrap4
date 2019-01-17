@@ -1,0 +1,28 @@
+h1,h2,h3,h4 
+{
+	font-family: $font-principal;
+	font-weight: 300!important;
+}
+h2 
+{
+	font-size: 3em;
+}
+.bg-success,.btn-success
+{
+	background-color: var(--primario)!important;
+}
+.btn-warning 
+{
+	background-color: var(--secundario)!important;
+	color: #ffffff;
+	border: none;
+}
+.text-success
+{
+	color: var(--primario);
+}
+hr{
+	background-color: var(--primario);
+	height: 1.5px;
+}
+

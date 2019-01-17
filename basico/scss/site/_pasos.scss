@@ -1,0 +1,34 @@
+.primeros-pasos {
+	.descripcion {
+	 flex: 1 0 50% ;
+	 height: 20rem;
+	 background-size: cover;
+	 margin-left: 20px;
+	}
+	.logotipo {
+		background-image: url(../img/servicio1.png);
+	}
+	.social-media {
+		background-image: url(../img/servicio2.png);
+	}
+	.audio {
+		background-image: url(../img/servicio3.png);
+	}
+	.traducciones {
+		background-image: url(../img/servicio4.png);
+	}
+	.wordpress {
+		background-image: url(../img/servicio5.png);
+	}
+	@media only screen and(min-width:576px) {
+		.descripcion {
+		 flex: 1 0 33.3%
+		}
+	}
+	@media only screen and(min-width:768px) {
+		.descripcion {
+		 flex: 1 0 calc(20% - 2rem);
+		}
+	}
+
+}
