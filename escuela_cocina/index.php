@@ -6,12 +6,12 @@
 	
 	<?php require_once "clases.php" ?>
 
-	<?php //require_once "img_bg.php" ?>
+	<?php require_once "img_bg.php" ?>
 	<?php ////require_once "tmp.php" ?>
 
 	<?php //require_once "blog.php" ?>
 	
-	<?php //require_once "pie.php" ?>
+	<?php require_once "pie.php" ?>
 
 
 <?php require_once "footer.php" ?>

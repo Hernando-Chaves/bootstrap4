@@ -1,4 +1,4 @@
-<section class="bg-gris pt-1 mt-5">
+<section class="bg-gris pt-1 mt-5 pb-5">
 	<div class="container mt-5">
 		<h2 class="text-center text-capitaize separador mt-5">Próximas clases</h2>
 		<div class="row">
