@@ -1,0 +1,31 @@
+.bandas
+{
+	.escenariosA
+	{
+		background-color: $amarillo;
+		.horas
+		{
+			li
+			{
+				padding: 5px 14px;
+			}
+			& li:nth-child(odd)
+			{
+				background-color: darken($amarillo,10%);
+			}
+		}
+
+	}
+	.escenariosV
+	{
+		@extend .escenariosA;
+		background-color: $secundario;
+		.horas
+		{
+			& li:nth-child(odd)
+			{
+				background-color: darken($secundario,8%);
+			}
+		}
+	}
+}

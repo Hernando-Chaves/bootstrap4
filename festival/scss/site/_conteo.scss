@@ -1,0 +1,38 @@
+/* CONTEO */
+#fecha
+{
+	font-size: 1.2rem!important;
+	margin-bottom: 30px;
+	@media only screen and(min-width: 468px)
+	{
+		font-size: 1.6rem!important;
+		margin-bottom: 80px;
+	}
+
+	@media only screen and(min-width: 768px)
+	{
+		font-size: 2.3rem!important;
+		margin-bottom: 80px;
+	}
+}
+
+
+/* BOLETOS */
+.tickets
+{
+	li
+	{
+		padding: 7px;
+		border-bottom: 1px solid $gris;
+	}
+	.li-head-purple
+	{
+		background-color: $purple;
+	}
+	.precio
+	{
+		font-size: 1.8rem;
+	}
+}
+
+

@@ -1,13 +1,15 @@
-h1,h2,h3,h4,h5,h6,
-a
+body
 {
-	color: $negro!important;
 	font-family: $font-main;
 }
+
 .bg-principal
 {
 	background-color: $principal!important;
-
+}
+.bg-secundario
+{
+	background-color: $secundario!important;
 }
 .btn-secundario
 {
@@ -20,7 +22,7 @@ a
 }
 .text-principal
 {
-	color: $principal;
+	color: $principal!important;
 }
 .h-especial
 {

@@ -1,187 +1,69 @@
-.menu
+/* MENU */
+#navegacion
 {
-	border-top: 0.7px solid #DBDBDB!important;
+	a
+	{
+		color: $blanco;
+		opacity: 1!important;
+	}
 }
-.imb-bg-header
+
+
+/* VIDEO */
+.embed-responsive
 {
-	background-image: url(../img/principal.jpg);
-	height: 500px;
-	background-size: cover;
+	position: relative;
+	background-image: url(../img/banda.jpg);
+	height: 50rem;
 	background-position: center center;
+	&::after
+	{
+		content:"";
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background-color: green;
+		opacity: 0.5;
+		background: -moz-linear-gradient(-45deg, rgba(255,0,132,0.5) 0%, rgba(255,0,132,0.5) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg, rgba(255,0,132,0.5) 0%,rgba(255,0,132,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(135deg, rgba(255,0,132,0.5) 0%,rgba(255,0,132,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ff0084', endColorstr='#80ff0084',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+
+	.container
+	{
+		position: absolute;
+		top: 30%;
+		z-index: 99;
+		
+		h1
+		{
+			font-size: 2rem;
+			line-height: 5rem;
+		}
+		p
+		{
+			font-weight: 700;
+			font-size: 1.5rem;
+		}
+
+	}
+
+	@media only screen and (min-width: 992px)
+	{
+		background-image: unset;
+		height: auto;
+
+		.container
+		{
+			top: 40%;
+			left: 30%;
+			h1
+			{
+				font-size: 3rem;
+				line-height: unset;
+			}
+		}
+	}
 }
-
-
-.bg-image
-{
-	background-image: url(../img/nosotros.jpg);
-	background-size: cover;
-	height: 480px;
-	background-position: center center;
-	// margin-bottom: 200px;
-}
-.nosotros
-{
-	background-color: $principal;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
