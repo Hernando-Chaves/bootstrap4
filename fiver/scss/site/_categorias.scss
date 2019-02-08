@@ -1,0 +1,41 @@
+.categoria
+{
+	margin-top: 15px;
+	padding-bottom: 40px;
+	overflow: hidden;
+	&:hover 
+	{
+		h4:before
+		{
+			width: 120px;
+		}
+		p
+		{
+			top: 0;
+			opacity: 1;
+		}
+	}
+	h4
+	{
+		font-size: 1.4rem;
+		font-weight: 400;
+		&::before
+		{
+			content:"";
+			display: block;
+			margin: 0 auto 8px auto;
+			height: 1px;
+			width: 60px;
+			background-color: $verde;
+			transition: all 0.3s ease;
+		}
+	}
+	p
+	{
+		color: darken($gris,30%);
+		position: relative;
+		top: 25px;
+		transition: all 0.3s ease;
+		opacity: 0;
+	}
+}

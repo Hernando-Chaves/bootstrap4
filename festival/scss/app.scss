@@ -4,18 +4,16 @@
 @import "site/lineUp";
 @import "site/conteo";
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+#menu
 {
-	background-color: $principal!important;
-}
-.fixed-top
-{
-	transition:  all 0.7s ease;
-	&.bg-secundario
+	& .fixed-top
 	{
-		-webkit-box-shadow: 2px 7px 31px -5px rgba(84,81,84,0.68);
-		-moz-box-shadow: 2px 7px 31px -5px rgba(84,81,84,0.68);
-		box-shadow: 2px 7px 31px -5px rgba(84,81,84,0.68);
+		-webkit-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.33);
+		-moz-box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.33);
+		box-shadow: 0px 6px 5px -1px rgba(0,0,0,0.33);
 	}
+	@media only screen and(min-width: 768px)
+	{
 
+	}
 }

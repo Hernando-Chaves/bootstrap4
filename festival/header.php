@@ -1,5 +1,4 @@
-<body data-spy="scroll" data-target="#navegacion">
-	
+<body data-spy="scroll" data-target="#navegacion" data-offset="180">
 <nav id="navegacion" class="navbar navbar-expand-lg fixed-top navbar-dark py-1 ">
 	<div class="container">
 		<a href="" class="navbar-brand text-uppercase">festival <span class="font-weight-bold">HJC</span> </a>

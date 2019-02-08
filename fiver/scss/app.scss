@@ -1,9 +1,34 @@
 @import "variables";
 @import "generales";
-@import "site/header.scss";
-@import "site/marketplace.scss";
-@import "site/video.scss";
-@import "site/pasos.scss";
+@import "site/hero";
+@import "site/categorias";
+@import "site/pro";
+@import "site/pasos";
+@import "site/slide";
+@import "site/pie";
+@import "site/topbar";
+
+.topbar
+{
+	margin-top: -115px;
+	opacity: 0;
+	transition:  all 0.7s ease;
+	position: fixed;
+	background-color: $blanco;
+	z-index: 100;
+	
+	a:not(.btn-outline-success)
+	{
+		color: lighten($negro,25%);
+	}
+}
+
+
+
+
+
+
+
 
 
 

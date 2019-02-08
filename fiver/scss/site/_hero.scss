@@ -1,0 +1,19 @@
+#hero
+{
+	background-image: url(../img/hero.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	a
+	{
+		color: $blanco!important;
+		opacity: 1!important;
+	}
+	.btn-outline-light
+	{
+		&:hover
+		{
+			color: darken($gris,40%)!important;
+		}
+	}
+}

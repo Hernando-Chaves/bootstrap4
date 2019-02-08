@@ -8,6 +8,7 @@ var autoprefixer = require('gulp-autoprefixer');
 gulp.task('sass', () => {
   return gulp.src([
     'node_modules/bootstrap/scss/bootstrap.scss',
+    'node_modules/bootstrap/scss/bootstrap.scss',
     './scss/**/*.scss'
   ])
   .pipe(autoprefixer())
@@ -19,14 +20,14 @@ gulp.task('sass', () => {
 gulp.task('browser-sync', ['sass'],function(){
   var archivos = [
     './css/**/*.css',
-    './*.php',
+    './**/*.php',
     './scss/**/*.scss',
     './inc/**/*.php',
     './js/**/*.js',
     './images/**/*.**'
   ];
   browserSync.init(archivos,{
-    proxy : 'http://localhost/boots_delatorre/test3/',
+    proxy : 'http://localhost/boots_delatorre/fiver/',
     notify : false
   })
 });
@@ -42,12 +43,12 @@ gulp.task('js', () => {
 });
 
 gulp.task('font-awesome', () => {
-  return gulp.src('node_modules/font-awesome/css/font-awesome.min.css')
+  return gulp.src('node_modules/@fortawesome/fontawesome-free/css/all.min.css')
   .pipe(gulp.dest('./css'));
 })
 
 gulp.task('fonts', () => {
-  return gulp.src('node_modules/font-awesome/fonts/*')
+  return gulp.src('node_modules/@fortawesome/webfonts/*')
     .pipe(gulp.dest('./fonts'));
 });
 

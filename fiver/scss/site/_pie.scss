@@ -1,0 +1,20 @@
+.pie
+{
+	background-color: lighten($gris,5%);
+	h3
+	{
+		font-size: 15px;
+		color: lighten($negro,20%);
+	}
+	nav
+	{
+		line-height: 1rem;
+		flex: 0 0 calc(50% -1rem);
+		padding: 1rem;
+		a
+		{
+			color: lighten($negro,28%);
+			padding-left: 0;
+		}
+	}
+}

@@ -8,6 +8,22 @@
 	}
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+	background-color: $principal!important;
+}
+.fixed-top
+{
+	transition:  all 0.7s ease;
+	&.bg-secundario
+	{
+		-webkit-box-shadow: 2px 7px 31px -5px rgba(84,81,84,0.68);
+		-moz-box-shadow: 2px 7px 31px -5px rgba(84,81,84,0.68);
+		box-shadow: 2px 7px 31px -5px rgba(84,81,84,0.68);
+	}
+
+}
+
 
 /* VIDEO */
 .embed-responsive

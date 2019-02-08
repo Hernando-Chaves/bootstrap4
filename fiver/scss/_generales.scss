@@ -1,14 +1,42 @@
-h1,h2,h3,h4 {
-	font-family: $font-principal;
-	font-weight: 700!important;
-}
-h2 {
-	font-size: 3em;
-}
-.btn-success {
-	background-color: $verde;
+
+h1,h2,h3,h4,h5,h6
+
+{
+	font-family: $font-main;
 }
 
-.bg-dark {
-	background-color: $gris!important;
+.bg-black
+{
+	background-color: $negro;
+}
+
+.bg-gris
+{
+	background-color: $gris;
+}
+
+.bg-principal
+{
+	background-color: $principal!important;
+}
+.bg-secundario
+{
+	background-color: $secundario!important;
+}
+.btn-secundario
+{
+	background-color: $secundario;
+	color: $blanco;
+	&:hover
+	{
+		background-color: darken($secundario,10%);
+	}
+}
+.text-principal
+{
+	color: $principal!important;
+}
+.h-especial
+{
+	font-family: $font-secund;
 }

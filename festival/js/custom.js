@@ -19,17 +19,17 @@
 	});
 
 /*	CAMBIA COLOR DE BARRA DE NAVEGACIÓ AL DAR SCROLL*/
-	window.onscroll = (e) => {
-		var scroll = window.scrollY,
-		    header = $('#navegacion');
+ window.onscroll = (e) => {
+ 	var scroll = window.scrollY,
+ 	    header = $('#navegacion');
 
-		    if(scroll > 280)
-		    {
-		    	header.addClass('bg-secundario');
-		    } else {
-		    	header.removeClass('bg-secundario');
-		    }
-	}
+ 	    if(scroll > 280)
+ 	    {
+ 	    	header.addClass('bg-secundario');
+ 	    } else {
+ 	    	header.removeClass('bg-secundario');
+ 	    }
+ }
 
 
 })()
