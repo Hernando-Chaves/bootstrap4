@@ -1,0 +1,24 @@
+
+.premiere
+{
+	background-image: url(../img/modelo_premier.jpg);
+	background-repeat: no-repeat;
+	min-height: 44rem;
+	background-position: left center;
+	@media(min-width: 768px)
+	{
+		min-height: 30rem;
+	}
+}
+
+.elite
+{
+	background-image: url(../img/modelo_elite.jpg);
+	background-repeat: no-repeat;
+	min-height: 44rem;
+	background-position: top right;
+	@media(min-width: 768px)
+	{
+		min-height: 30rem;
+	}
+}

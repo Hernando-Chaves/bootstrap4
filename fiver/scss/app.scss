@@ -7,21 +7,82 @@
 @import "site/slide";
 @import "site/pie";
 @import "site/topbar";
-
-.topbar
+/* HEADER */
+.header
 {
-	margin-top: -115px;
-	opacity: 0;
-	transition:  all 0.7s ease;
-	position: fixed;
-	background-color: $blanco;
-	z-index: 100;
-	
-	a:not(.btn-outline-success)
+	background-image: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	a:not(.btn-outline-light)
 	{
-		color: lighten($negro,25%);
+		color: $blanco!important;
 	}
 }
+/* CATEGORIAS */
+.categoria2
+{
+	padding-bottom: 40px;
+	box-sizing: border-box;
+	&:hover
+	{
+		h3
+		{
+			&:before
+			{
+				width: 80%;
+			}
+		}
+		p
+		{
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+	h3
+	{
+		font-size: 1.4rem;
+		&:before
+		{
+			content:"";
+			height: 1px;
+			width: 60px;
+			display: block;
+			background-color: $verde;
+			margin: 0 auto 8px auto;
+			transition: all 0.5s ease;
+		}
+	}
+	p
+	{
+		color: darken($gris,30%);
+		transform: translateY(23px);
+		opacity: 0;
+		transition: all 0.5s ease;
+	}
+}
+
+/* PRO */
+.img_pro
+{
+	cursor: pointer;
+}
+
+
+/* PRIMEROS PASOS */
+.primeros
+{
+	
+	p
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: $blanco;
+		font-size: 0.7rem;
+		padding: 5px;
+	}
+}
+
 
 
 

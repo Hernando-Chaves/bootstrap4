@@ -1,0 +1,24 @@
+.nosotros
+{
+	background-image: url(../img/nosotros.jpg);
+	background-repeat: no-repeat;
+	min-height: 44rem;
+	background-position: bottom left;
+	@media (min-width: 768px)
+	{
+		min-height: 30rem;
+	}
+}
+
+.basico
+{
+	background-image: url(../img/modelo_basico.jpg);
+	min-height: 44rem;
+	background-repeat: no-repeat;
+	background-position: center top;
+	@media(min-width: 768px)
+	{
+		min-height: 30rem;
+		background-position: top right;
+	}
+}

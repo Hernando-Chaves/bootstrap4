@@ -1,0 +1,30 @@
+body
+{
+	font-family: $font-main;
+}
+
+.bg-principal
+{
+	background-color: $principal!important;
+}
+.bg-secundario
+{
+	background-color: $secundario!important;
+}
+.btn-secundario
+{
+	background-color: $secundario;
+	color: $blanco;
+	&:hover
+	{
+		background-color: darken($secundario,10%);
+	}
+}
+.text-principal
+{
+	color: $principal!important;
+}
+.h-especial
+{
+	font-family: $font-secund;
+}
